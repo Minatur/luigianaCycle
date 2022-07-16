@@ -4,10 +4,10 @@ from django.db import models
 
 class ride(models.Model):
     DIFFICULTY = (
-        ('1', 'Easy')
-        ('2', 'Medium')
-        ('3', 'Hard')
-        ('4', 'Very Hard')
+        ('1', 'Easy'),
+        ('2', 'Medium'),
+        ('3', 'Hard'),
+        ('4', 'Very Hard'),
         ('5', 'Nightmare')
     )
     title = models.CharField(max_length=100)
@@ -16,10 +16,12 @@ class ride(models.Model):
 
 
 #class user(models.Model):
-
+    #username = models.CharField(max_length=16)
+    #
 
 
 
 
 
 #class comment(models.Model)
+    #
