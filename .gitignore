@@ -1,0 +1,9 @@
+local.py
+.env
+*.zip
+*.sql
+*.pyc
+*~
+__pycache__
+*.sqlite3
+dj/
