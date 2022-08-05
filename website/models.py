@@ -4,11 +4,11 @@ from django.db import models
 
 class ride(models.Model):
     DIFFICULTY = (
-        ('1', 'Easy'),
-        ('2', 'Medium'),
-        ('3', 'Hard'),
-        ('4', 'Very Hard'),
-        ('5', 'Nightmare')
+        ('Easy', '1'),
+        ('Medium', '2'),
+        ('Hard', '3'),
+        ('Very Hard', '4'),
+        ('Nightmare', '5')
     )
     title = models.CharField(max_length=100)
     length = models.IntegerField()
