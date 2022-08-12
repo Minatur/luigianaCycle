@@ -258,3 +258,108 @@
 2022-08-12 10:26:49.430 CEST [4952] LOG:  background worker "logical replication launcher" (PID 18428) exited with exit code 1
 2022-08-12 10:26:49.450 CEST [4700] LOG:  shutting down
 2022-08-12 10:26:49.497 CEST [4952] LOG:  database system is shut down
+2022-08-12 12:39:03.457 CEST [7972] LOG:  starting PostgreSQL 12.9, compiled by Visual C++ build 1916, 64-bit
+2022-08-12 12:39:03.460 CEST [7972] LOG:  listening on IPv6 address "::1", port 5432
+2022-08-12 12:39:03.460 CEST [7972] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-08-12 12:39:03.498 CEST [636] LOG:  database system was shut down at 2022-08-12 10:26:49 CEST
+2022-08-12 12:39:03.519 CEST [7972] LOG:  database system is ready to accept connections
+2022-08-12 15:19:52.498 CEST [5944] ERROR:  canceling statement due to user request
+2022-08-12 15:19:52.500 CEST [7972] LOG:  received fast shutdown request
+2022-08-12 15:19:52.503 CEST [7972] LOG:  aborting any active transactions
+2022-08-12 15:19:52.529 CEST [7972] LOG:  background worker "logical replication launcher" (PID 5944) exited with exit code 1
+2022-08-12 15:19:52.558 CEST [7556] LOG:  shutting down
+2022-08-12 15:19:52.616 CEST [7972] LOG:  database system is shut down
+2022-08-12 15:21:37.647 CEST [15312] LOG:  starting PostgreSQL 12.9, compiled by Visual C++ build 1916, 64-bit
+2022-08-12 15:21:37.650 CEST [15312] LOG:  listening on IPv6 address "::1", port 5432
+2022-08-12 15:21:37.650 CEST [15312] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-08-12 15:21:37.683 CEST [16884] LOG:  database system was shut down at 2022-08-12 15:19:52 CEST
+2022-08-12 15:21:37.703 CEST [15312] LOG:  database system is ready to accept connections
+2022-08-12 15:21:59.391 CEST [14656] ERROR:  column website_ride.description does not exist at character 107
+2022-08-12 15:21:59.391 CEST [14656] STATEMENT:  SELECT "website_ride"."id", "website_ride"."title", "website_ride"."length", "website_ride"."difficulty", "website_ride"."description" FROM "website_ride"
+2022-08-12 15:21:59.416 CEST [14656] ERROR:  column website_ride.description does not exist at character 107
+2022-08-12 15:21:59.416 CEST [14656] STATEMENT:  SELECT "website_ride"."id", "website_ride"."title", "website_ride"."length", "website_ride"."difficulty", "website_ride"."description" FROM "website_ride"  LIMIT 21
+2022-08-12 15:21:59.416 CEST [14656] ERROR:  column website_ride.description does not exist at character 107
+2022-08-12 15:21:59.416 CEST [14656] STATEMENT:  SELECT "website_ride"."id", "website_ride"."title", "website_ride"."length", "website_ride"."difficulty", "website_ride"."description" FROM "website_ride"  LIMIT 21
+2022-08-12 15:21:59.417 CEST [14656] ERROR:  column website_ride.description does not exist at character 107
+2022-08-12 15:21:59.417 CEST [14656] STATEMENT:  SELECT "website_ride"."id", "website_ride"."title", "website_ride"."length", "website_ride"."difficulty", "website_ride"."description" FROM "website_ride"  LIMIT 21
+2022-08-12 15:21:59.417 CEST [14656] ERROR:  column website_ride.description does not exist at character 107
+2022-08-12 15:21:59.417 CEST [14656] STATEMENT:  SELECT "website_ride"."id", "website_ride"."title", "website_ride"."length", "website_ride"."difficulty", "website_ride"."description" FROM "website_ride"  LIMIT 21
+2022-08-12 15:21:59.417 CEST [14656] ERROR:  column website_ride.description does not exist at character 107
+2022-08-12 15:21:59.417 CEST [14656] STATEMENT:  SELECT "website_ride"."id", "website_ride"."title", "website_ride"."length", "website_ride"."difficulty", "website_ride"."description" FROM "website_ride"  LIMIT 21
+2022-08-12 15:21:59.418 CEST [14656] ERROR:  column website_ride.description does not exist at character 107
+2022-08-12 15:21:59.418 CEST [14656] STATEMENT:  SELECT "website_ride"."id", "website_ride"."title", "website_ride"."length", "website_ride"."difficulty", "website_ride"."description" FROM "website_ride"  LIMIT 21
+2022-08-12 15:21:59.418 CEST [14656] ERROR:  column website_ride.description does not exist at character 107
+2022-08-12 15:21:59.418 CEST [14656] STATEMENT:  SELECT "website_ride"."id", "website_ride"."title", "website_ride"."length", "website_ride"."difficulty", "website_ride"."description" FROM "website_ride"  LIMIT 21
+2022-08-12 15:21:59.418 CEST [14656] ERROR:  column website_ride.description does not exist at character 107
+2022-08-12 15:21:59.418 CEST [14656] STATEMENT:  SELECT "website_ride"."id", "website_ride"."title", "website_ride"."length", "website_ride"."difficulty", "website_ride"."description" FROM "website_ride"  LIMIT 21
+2022-08-12 15:21:59.419 CEST [14656] ERROR:  column website_ride.description does not exist at character 107
+2022-08-12 15:21:59.419 CEST [14656] STATEMENT:  SELECT "website_ride"."id", "website_ride"."title", "website_ride"."length", "website_ride"."difficulty", "website_ride"."description" FROM "website_ride"  LIMIT 21
+2022-08-12 15:21:59.419 CEST [14656] ERROR:  column website_ride.description does not exist at character 107
+2022-08-12 15:21:59.419 CEST [14656] STATEMENT:  SELECT "website_ride"."id", "website_ride"."title", "website_ride"."length", "website_ride"."difficulty", "website_ride"."description" FROM "website_ride"  LIMIT 21
+2022-08-12 15:21:59.420 CEST [14656] ERROR:  column website_ride.description does not exist at character 107
+2022-08-12 15:21:59.420 CEST [14656] STATEMENT:  SELECT "website_ride"."id", "website_ride"."title", "website_ride"."length", "website_ride"."difficulty", "website_ride"."description" FROM "website_ride"  LIMIT 21
+2022-08-12 15:21:59.420 CEST [14656] ERROR:  column website_ride.description does not exist at character 107
+2022-08-12 15:21:59.420 CEST [14656] STATEMENT:  SELECT "website_ride"."id", "website_ride"."title", "website_ride"."length", "website_ride"."difficulty", "website_ride"."description" FROM "website_ride"  LIMIT 21
+2022-08-12 15:21:59.421 CEST [14656] ERROR:  column website_ride.description does not exist at character 107
+2022-08-12 15:21:59.421 CEST [14656] STATEMENT:  SELECT "website_ride"."id", "website_ride"."title", "website_ride"."length", "website_ride"."difficulty", "website_ride"."description" FROM "website_ride"  LIMIT 21
+2022-08-12 15:21:59.421 CEST [14656] ERROR:  column website_ride.description does not exist at character 107
+2022-08-12 15:21:59.421 CEST [14656] STATEMENT:  SELECT "website_ride"."id", "website_ride"."title", "website_ride"."length", "website_ride"."difficulty", "website_ride"."description" FROM "website_ride"  LIMIT 21
+2022-08-12 15:21:59.421 CEST [14656] ERROR:  column website_ride.description does not exist at character 107
+2022-08-12 15:21:59.421 CEST [14656] STATEMENT:  SELECT "website_ride"."id", "website_ride"."title", "website_ride"."length", "website_ride"."difficulty", "website_ride"."description" FROM "website_ride"  LIMIT 21
+2022-08-12 15:21:59.422 CEST [14656] ERROR:  column website_ride.description does not exist at character 107
+2022-08-12 15:21:59.422 CEST [14656] STATEMENT:  SELECT "website_ride"."id", "website_ride"."title", "website_ride"."length", "website_ride"."difficulty", "website_ride"."description" FROM "website_ride"  LIMIT 21
+2022-08-12 15:21:59.422 CEST [14656] ERROR:  column website_ride.description does not exist at character 107
+2022-08-12 15:21:59.422 CEST [14656] STATEMENT:  SELECT "website_ride"."id", "website_ride"."title", "website_ride"."length", "website_ride"."difficulty", "website_ride"."description" FROM "website_ride"  LIMIT 21
+2022-08-12 15:21:59.422 CEST [14656] ERROR:  column website_ride.description does not exist at character 107
+2022-08-12 15:21:59.422 CEST [14656] STATEMENT:  SELECT "website_ride"."id", "website_ride"."title", "website_ride"."length", "website_ride"."difficulty", "website_ride"."description" FROM "website_ride"  LIMIT 21
+2022-08-12 15:21:59.423 CEST [14656] ERROR:  column website_ride.description does not exist at character 107
+2022-08-12 15:21:59.423 CEST [14656] STATEMENT:  SELECT "website_ride"."id", "website_ride"."title", "website_ride"."length", "website_ride"."difficulty", "website_ride"."description" FROM "website_ride"  LIMIT 21
+2022-08-12 15:22:49.184 CEST [4120] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-08-12 15:29:22.121 CEST [17424] ERROR:  canceling statement due to user request
+2022-08-12 15:29:22.121 CEST [15312] LOG:  received fast shutdown request
+2022-08-12 15:29:22.123 CEST [16884] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-08-12 15:29:22.124 CEST [15312] LOG:  aborting any active transactions
+2022-08-12 15:29:22.150 CEST [15312] LOG:  background worker "logical replication launcher" (PID 17424) exited with exit code 1
+2022-08-12 15:29:22.180 CEST [19340] LOG:  shutting down
+2022-08-12 15:29:22.245 CEST [15312] LOG:  database system is shut down
+2022-08-12 16:22:46.989 CEST [19968] LOG:  starting PostgreSQL 12.9, compiled by Visual C++ build 1916, 64-bit
+2022-08-12 16:22:46.993 CEST [19968] LOG:  listening on IPv6 address "::1", port 5432
+2022-08-12 16:22:46.993 CEST [19968] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-08-12 16:22:47.067 CEST [15820] LOG:  database system was shut down at 2022-08-12 15:29:22 CEST
+2022-08-12 16:22:47.108 CEST [19968] LOG:  database system is ready to accept connections
+2022-08-12 16:28:19.815 CEST [4064] ERROR:  canceling statement due to user request
+2022-08-12 16:28:19.816 CEST [19968] LOG:  received fast shutdown request
+2022-08-12 16:28:19.817 CEST [19560] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-08-12 16:28:19.819 CEST [19968] LOG:  aborting any active transactions
+2022-08-12 16:28:19.831 CEST [19968] LOG:  background worker "logical replication launcher" (PID 4064) exited with exit code 1
+2022-08-12 16:28:19.859 CEST [15552] LOG:  shutting down
+2022-08-12 16:28:19.903 CEST [19968] LOG:  database system is shut down
+2022-08-12 16:28:44.441 CEST [16924] LOG:  starting PostgreSQL 12.9, compiled by Visual C++ build 1916, 64-bit
+2022-08-12 16:28:44.443 CEST [16924] LOG:  listening on IPv6 address "::1", port 5432
+2022-08-12 16:28:44.443 CEST [16924] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-08-12 16:28:44.475 CEST [18812] LOG:  database system was shut down at 2022-08-12 16:28:19 CEST
+2022-08-12 16:28:44.513 CEST [16924] LOG:  database system is ready to accept connections
+2022-08-12 16:37:57.022 CEST [13196] ERROR:  column "description" of relation "website_ride" does not exist at character 62
+2022-08-12 16:37:57.022 CEST [13196] STATEMENT:  INSERT INTO "website_ride" ("title", "length", "difficulty", "description") VALUES ('Ride Title', 9, 'Hard', 'A description') RETURNING "website_ride"."id"
+2022-08-12 16:37:57.051 CEST [13196] ERROR:  column website_ride.description does not exist at character 107
+2022-08-12 16:37:57.051 CEST [13196] STATEMENT:  SELECT "website_ride"."id", "website_ride"."title", "website_ride"."length", "website_ride"."difficulty", "website_ride"."description" FROM "website_ride"  LIMIT 21
+2022-08-12 17:07:42.975 CEST [19712] ERROR:  canceling statement due to user request
+2022-08-12 17:07:42.977 CEST [16924] LOG:  received fast shutdown request
+2022-08-12 17:07:42.979 CEST [19484] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-08-12 17:07:42.980 CEST [16924] LOG:  aborting any active transactions
+2022-08-12 17:07:43.003 CEST [16924] LOG:  background worker "logical replication launcher" (PID 19712) exited with exit code 1
+2022-08-12 17:07:43.006 CEST [9740] LOG:  shutting down
+2022-08-12 17:07:43.057 CEST [16924] LOG:  database system is shut down
+2022-08-12 17:08:05.195 CEST [3280] LOG:  starting PostgreSQL 12.9, compiled by Visual C++ build 1916, 64-bit
+2022-08-12 17:08:05.198 CEST [3280] LOG:  listening on IPv6 address "::1", port 5432
+2022-08-12 17:08:05.198 CEST [3280] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-08-12 17:08:05.233 CEST [19052] LOG:  database system was shut down at 2022-08-12 17:07:43 CEST
+2022-08-12 17:08:05.254 CEST [3280] LOG:  database system is ready to accept connections
+2022-08-12 17:13:24.680 CEST [16448] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-08-12 17:44:59.061 CEST [3960] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	

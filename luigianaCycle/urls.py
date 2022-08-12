@@ -16,13 +16,11 @@ Including another URLconf
 
 from django.contrib import admin
 from django.urls import include, path
-#from django.views.generic import TemplateView
-from website.views import AboutView
+from website.views import BaseView, RideItemView
 
 urlpatterns = [
-    #path('', include('website.urls')),
-    #path('', TemplateView.as_view(template_name="about.html")),
-    path('', AboutView.as_view()),
+    path('', BaseView.as_view()),
     path('index/', include('website.urls')),
     path('admin/', admin.site.urls),
+    path('index/<int:pk>/', RideItemView.as_view(), name='rideitem')
 ]

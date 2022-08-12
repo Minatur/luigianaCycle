@@ -13,7 +13,7 @@ class ride(models.Model):
     title = models.CharField(max_length=100)
     length = models.IntegerField()
     difficulty = models.CharField(max_length=10, choices=DIFFICULTY)
-    description = models.CharField(max_length=999)
+    description = models.CharField(max_length=999, default='')
 
 
 #class user(models.Model):
