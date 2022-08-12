@@ -1,9 +1,12 @@
 local.py
-.env
+*.env
 *.zip
 *.sql
 *.pyc
 *~
+*.bat
+*.init
 __pycache__
+mylocal_db
 *.sqlite3
 dj/

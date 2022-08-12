@@ -1,0 +1,33 @@
+{% extends "./website_base.html" %}
+
+{% block rideSpecific %}
+
+{% if rides_list %}
+    <ul>
+    {% for ride in rides_list %}
+        <li>
+          <a href="/templates/ride.html">
+            <div class="container">
+              <div class="row">
+                <div class="col">
+                  <p>{{ ride.title }}</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <p>Difficulty: {{ ride.difficulty }}</p>
+                </div>
+                <div class="col">
+                  <p>Length: {{ ride.length}}km</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No rides are available.</p>
+{% endif %}
+
+{% endblock %}

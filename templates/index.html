@@ -6,10 +6,11 @@
     <ul>
     {% for ride in rides_list %}
         <li>
+          <a href="/templates/ride.html">
             <div class="container">
               <div class="row">
                 <div class="col">
-                  <a href="/website/{{ ride.id }}/">{{ ride.title }}</a
+                  <p>{{ ride.title }}</p>
                 </div>
               </div>
               <div class="row">
@@ -21,7 +22,7 @@
                 </div>
               </div>
             </div>
-
+          </a>
         </li>
     {% endfor %}
     </ul>
