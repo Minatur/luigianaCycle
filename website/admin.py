@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from .models import ride
+from .models import activity
 
-admin.site.register(ride)
+admin.site.register(activity)
 # Register your models here.

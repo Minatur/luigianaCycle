@@ -16,7 +16,6 @@ Including another URLconf
 
 from django.contrib import admin
 from django.urls import include, path
-from website.views import BaseView, RideItemView, RideListView
 
 urlpatterns = [
     path('', include('website.urls')),

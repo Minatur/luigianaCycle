@@ -363,3 +363,237 @@
 	
 2022-08-12 17:44:59.061 CEST [3960] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
 	
+2022-08-12 17:50:26.539 CEST [7972] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-08-12 17:52:00.892 CEST [20348] ERROR:  canceling statement due to user request
+2022-08-12 17:52:00.893 CEST [3280] LOG:  received fast shutdown request
+2022-08-12 17:52:00.895 CEST [5960] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-08-12 17:52:00.896 CEST [3280] LOG:  aborting any active transactions
+2022-08-12 17:52:00.930 CEST [3280] LOG:  background worker "logical replication launcher" (PID 20348) exited with exit code 1
+2022-08-12 17:52:00.955 CEST [8512] LOG:  shutting down
+2022-08-12 17:52:00.988 CEST [3280] LOG:  database system is shut down
+2022-08-13 09:58:19.030 CEST [11676] LOG:  starting PostgreSQL 12.9, compiled by Visual C++ build 1916, 64-bit
+2022-08-13 09:58:19.033 CEST [11676] LOG:  listening on IPv6 address "::1", port 5432
+2022-08-13 09:58:19.033 CEST [11676] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-08-13 09:58:19.077 CEST [14408] LOG:  database system was shut down at 2022-08-12 17:52:00 CEST
+2022-08-13 09:58:19.120 CEST [11676] LOG:  database system is ready to accept connections
+2022-08-13 09:59:57.849 CEST [6356] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-08-13 10:11:38.023 CEST [6900] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-08-13 10:55:37.507 CEST [2528] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-08-13 11:01:05.959 CEST [11020] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-08-13 11:01:20.631 CEST [5028] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-08-13 11:01:39.733 CEST [13308] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-08-13 11:28:34.751 CEST [7656] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-08-13 11:29:41.162 CEST [11032] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-08-13 13:59:30.796 CEST [11676] LOG:  server process (PID 17336) was terminated by exception 0xC000013A
+2022-08-13 13:59:30.796 CEST [11676] DETAIL:  Failed process was running: SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"
+2022-08-13 13:59:30.796 CEST [11676] HINT:  See C include file "ntstatus.h" for a description of the hexadecimal value.
+2022-08-13 13:59:30.796 CEST [11676] LOG:  terminating any other active server processes
+2022-08-13 13:59:30.798 CEST [14836] WARNING:  terminating connection because of crash of another server process
+2022-08-13 13:59:30.798 CEST [14836] DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2022-08-13 13:59:30.798 CEST [14836] HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2022-08-13 13:59:30.826 CEST [11676] LOG:  all server processes terminated; reinitializing
+2022-08-13 13:59:30.851 CEST [19184] LOG:  database system was interrupted; last known up at 2022-08-13 10:03:19 CEST
+2022-08-13 13:59:31.338 CEST [19184] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-08-13 13:59:31.343 CEST [19184] LOG:  redo starts at 0/16BE540
+2022-08-13 13:59:31.343 CEST [19184] LOG:  invalid record length at 0/16BE628: wanted 24, got 0
+2022-08-13 13:59:31.343 CEST [19184] LOG:  redo done at 0/16BE5F0
+2022-08-13 13:59:31.375 CEST [11676] LOG:  database system is ready to accept connections
+2022-08-13 13:59:34.610 CEST [11676] LOG:  background worker "logical replication launcher" (PID 9312) was terminated by exception 0xC000013A
+2022-08-13 13:59:34.610 CEST [11676] HINT:  See C include file "ntstatus.h" for a description of the hexadecimal value.
+2022-08-13 13:59:34.610 CEST [11676] LOG:  terminating any other active server processes
+2022-08-13 13:59:34.611 CEST [15924] WARNING:  terminating connection because of crash of another server process
+2022-08-13 13:59:34.611 CEST [15924] DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2022-08-13 13:59:34.611 CEST [15924] HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2022-08-13 13:59:34.626 CEST [11676] LOG:  statistics collector process (PID 19224) was terminated by exception 0xC000013A
+2022-08-13 13:59:34.626 CEST [11676] HINT:  See C include file "ntstatus.h" for a description of the hexadecimal value.
+2022-08-13 13:59:34.626 CEST [11676] LOG:  all server processes terminated; reinitializing
+2022-08-13 13:59:34.653 CEST [18808] LOG:  database system was interrupted; last known up at 2022-08-13 13:59:31 CEST
+2022-08-13 13:59:34.991 CEST [18808] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-08-13 13:59:34.994 CEST [18808] LOG:  invalid record length at 0/16BE6A0: wanted 24, got 0
+2022-08-13 13:59:34.994 CEST [18808] LOG:  redo is not required
+2022-08-13 13:59:35.041 CEST [11676] LOG:  database system is ready to accept connections
+2022-08-13 13:59:47.069 CEST [11676] LOG:  background worker "logical replication launcher" (PID 7188) was terminated by exception 0xC000013A
+2022-08-13 13:59:47.069 CEST [11676] HINT:  See C include file "ntstatus.h" for a description of the hexadecimal value.
+2022-08-13 13:59:47.069 CEST [11676] LOG:  terminating any other active server processes
+2022-08-13 13:59:47.070 CEST [19468] WARNING:  terminating connection because of crash of another server process
+2022-08-13 13:59:47.070 CEST [19468] DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2022-08-13 13:59:47.070 CEST [19468] HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2022-08-13 13:59:47.085 CEST [11676] LOG:  statistics collector process (PID 15068) was terminated by exception 0xC000013A
+2022-08-13 13:59:47.085 CEST [11676] HINT:  See C include file "ntstatus.h" for a description of the hexadecimal value.
+2022-08-13 13:59:47.085 CEST [11676] LOG:  all server processes terminated; reinitializing
+2022-08-13 13:59:47.117 CEST [9952] LOG:  database system was interrupted; last known up at 2022-08-13 13:59:34 CEST
+2022-08-13 13:59:47.385 CEST [11676] LOG:  startup process (PID 9952) was terminated by exception 0xC000013A
+2022-08-13 13:59:47.385 CEST [11676] HINT:  See C include file "ntstatus.h" for a description of the hexadecimal value.
+2022-08-13 13:59:47.385 CEST [11676] LOG:  aborting startup due to startup process failure
+^C2022-08-14 11:25:50.196 CEST [8960] LOG:  starting PostgreSQL 12.9, compiled by Visual C++ build 1916, 64-bit
+2022-08-14 11:25:50.198 CEST [8960] LOG:  listening on IPv6 address "::1", port 5432
+2022-08-14 11:25:50.198 CEST [8960] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-08-14 11:25:50.234 CEST [8936] LOG:  database system was interrupted; last known up at 2022-08-13 13:59:34 CEST
+2022-08-14 11:25:50.599 CEST [8936] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-08-14 11:25:50.601 CEST [8936] LOG:  invalid record length at 0/16BE718: wanted 24, got 0
+2022-08-14 11:25:50.601 CEST [8936] LOG:  redo is not required
+2022-08-14 11:25:50.629 CEST [8960] LOG:  database system is ready to accept connections
+2022-08-14 13:59:35.393 CEST [3176] ERROR:  canceling statement due to user request
+2022-08-14 13:59:35.394 CEST [8960] LOG:  received fast shutdown request
+2022-08-14 13:59:35.397 CEST [11792] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-08-14 13:59:35.398 CEST [8960] LOG:  aborting any active transactions
+2022-08-14 13:59:35.435 CEST [8960] LOG:  background worker "logical replication launcher" (PID 3176) exited with exit code 1
+2022-08-14 13:59:35.461 CEST [7436] LOG:  shutting down
+2022-08-14 13:59:35.522 CEST [8960] LOG:  database system is shut down
+2022-08-17 20:18:56.670 CEST [12536] LOG:  starting PostgreSQL 12.9, compiled by Visual C++ build 1916, 64-bit
+2022-08-17 20:18:56.674 CEST [12536] LOG:  listening on IPv6 address "::1", port 5432
+2022-08-17 20:18:56.675 CEST [12536] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-08-17 20:18:56.713 CEST [14868] LOG:  database system was shut down at 2022-08-14 13:59:35 CEST
+2022-08-17 20:18:56.735 CEST [12536] LOG:  database system is ready to accept connections
+2022-08-17 20:19:07.050 CEST [12536] LOG:  background worker "logical replication launcher" (PID 4864) was terminated by exception 0xC000013A
+2022-08-17 20:19:07.050 CEST [12536] HINT:  See C include file "ntstatus.h" for a description of the hexadecimal value.
+2022-08-17 20:19:07.050 CEST [12536] LOG:  terminating any other active server processes
+2022-08-17 20:19:07.052 CEST [1324] WARNING:  terminating connection because of crash of another server process
+2022-08-17 20:19:07.052 CEST [1324] DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2022-08-17 20:19:07.052 CEST [1324] HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2022-08-17 20:19:07.066 CEST [12536] LOG:  statistics collector process (PID 11700) was terminated by exception 0xC000013A
+2022-08-17 20:19:07.066 CEST [12536] HINT:  See C include file "ntstatus.h" for a description of the hexadecimal value.
+2022-08-17 20:19:07.066 CEST [12536] LOG:  all server processes terminated; reinitializing
+2022-08-17 20:19:07.093 CEST [8620] LOG:  database system was interrupted; last known up at 2022-08-17 20:18:56 CEST
+2022-08-17 20:19:07.618 CEST [8620] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-08-17 20:19:07.620 CEST [8620] LOG:  invalid record length at 0/16BE840: wanted 24, got 0
+2022-08-17 20:19:07.620 CEST [8620] LOG:  redo is not required
+2022-08-17 20:19:07.670 CEST [12536] LOG:  database system is ready to accept connections
+2022-08-17 20:22:38.733 CEST [9040] ERROR:  canceling statement due to user request
+2022-08-17 20:22:38.734 CEST [2636] ERROR:  canceling statement due to user request
+2022-08-17 20:22:38.734 CEST [12536] LOG:  received fast shutdown request
+2022-08-17 20:22:38.738 CEST [12536] LOG:  aborting any active transactions
+2022-08-17 20:22:38.747 CEST [12536] LOG:  background worker "logical replication launcher" (PID 9040) exited with exit code 1
+2022-08-17 20:22:38.766 CEST [15004] LOG:  shutting down
+2022-08-17 20:22:38.814 CEST [12536] LOG:  database system is shut down
+2022-08-20 15:24:11.427 CEST [5540] LOG:  starting PostgreSQL 12.9, compiled by Visual C++ build 1916, 64-bit
+2022-08-20 15:24:11.430 CEST [5540] LOG:  listening on IPv6 address "::1", port 5432
+2022-08-20 15:24:11.430 CEST [5540] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-08-20 15:24:11.473 CEST [3356] LOG:  database system was shut down at 2022-08-17 20:22:38 CEST
+2022-08-20 15:24:11.505 CEST [5540] LOG:  database system is ready to accept connections
+2022-08-20 16:24:37.821 CEST [7408] ERROR:  canceling statement due to user request
+2022-08-20 16:24:37.822 CEST [5540] LOG:  received fast shutdown request
+2022-08-20 16:24:37.826 CEST [5540] LOG:  aborting any active transactions
+2022-08-20 16:24:37.827 CEST [9164] FATAL:  terminating connection due to administrator command
+2022-08-20 16:24:37.837 CEST [5540] LOG:  background worker "logical replication launcher" (PID 7408) exited with exit code 1
+2022-08-20 16:24:37.862 CEST [8380] LOG:  shutting down
+2022-08-20 16:24:37.907 CEST [5540] LOG:  database system is shut down
+2022-08-20 16:24:42.559 CEST [2300] LOG:  starting PostgreSQL 12.9, compiled by Visual C++ build 1916, 64-bit
+2022-08-20 16:24:42.561 CEST [2300] LOG:  listening on IPv6 address "::1", port 5432
+2022-08-20 16:24:42.561 CEST [2300] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-08-20 16:24:42.592 CEST [3320] LOG:  database system was shut down at 2022-08-20 16:24:37 CEST
+2022-08-20 16:24:42.640 CEST [2300] LOG:  database system is ready to accept connections
+2022-08-20 16:27:29.338 CEST [10932] ERROR:  canceling statement due to user request
+2022-08-20 16:27:29.339 CEST [2300] LOG:  received fast shutdown request
+2022-08-20 16:27:29.340 CEST [860] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-08-20 16:27:29.341 CEST [2300] LOG:  aborting any active transactions
+2022-08-20 16:27:29.353 CEST [2300] LOG:  background worker "logical replication launcher" (PID 10932) exited with exit code 1
+2022-08-20 16:27:29.372 CEST [15764] LOG:  shutting down
+2022-08-20 16:27:29.455 CEST [2300] LOG:  database system is shut down
+2022-08-20 16:28:00.211 CEST [17876] LOG:  starting PostgreSQL 12.9, compiled by Visual C++ build 1916, 64-bit
+2022-08-20 16:28:00.213 CEST [17876] LOG:  listening on IPv6 address "::1", port 5432
+2022-08-20 16:28:00.213 CEST [17876] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-08-20 16:28:00.246 CEST [320] LOG:  database system was shut down at 2022-08-20 16:27:29 CEST
+2022-08-20 16:28:00.284 CEST [17876] LOG:  database system is ready to accept connections
+2022-08-20 16:31:10.529 CEST [17364] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-08-20 16:32:27.859 CEST [9980] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-08-20 16:33:26.669 CEST [18344] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-08-20 16:35:05.811 CEST [19140] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-08-20 16:42:53.686 CEST [9676] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-08-20 17:34:28.300 CEST [6380] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-08-20 17:36:31.135 CEST [15904] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-08-20 17:37:24.584 CEST [16968] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-08-20 17:42:14.704 CEST [18604] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-08-20 17:42:20.081 CEST [13224] ERROR:  canceling statement due to user request
+2022-08-20 17:42:20.083 CEST [17876] LOG:  received fast shutdown request
+2022-08-20 17:42:20.085 CEST [17772] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-08-20 17:42:20.087 CEST [17876] LOG:  aborting any active transactions
+2022-08-20 17:42:20.115 CEST [17876] LOG:  background worker "logical replication launcher" (PID 13224) exited with exit code 1
+2022-08-20 17:42:20.120 CEST [12728] LOG:  shutting down
+2022-08-20 17:42:20.148 CEST [17876] LOG:  database system is shut down
+2022-08-20 17:47:37.555 CEST [5292] LOG:  starting PostgreSQL 12.9, compiled by Visual C++ build 1916, 64-bit
+2022-08-20 17:47:37.558 CEST [5292] LOG:  listening on IPv6 address "::1", port 5432
+2022-08-20 17:47:37.558 CEST [5292] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-08-20 17:47:37.589 CEST [4312] LOG:  database system was shut down at 2022-08-20 17:42:20 CEST
+2022-08-20 17:47:37.607 CEST [5292] LOG:  database system is ready to accept connections
+2022-08-20 17:48:49.904 CEST [18136] ERROR:  canceling statement due to user request
+2022-08-20 17:48:49.906 CEST [5292] LOG:  received fast shutdown request
+2022-08-20 17:48:49.909 CEST [8276] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-08-20 17:48:49.909 CEST [5292] LOG:  aborting any active transactions
+2022-08-20 17:48:49.932 CEST [5292] LOG:  background worker "logical replication launcher" (PID 18136) exited with exit code 1
+2022-08-20 17:48:49.947 CEST [13128] LOG:  shutting down
+2022-08-20 17:48:49.978 CEST [5292] LOG:  database system is shut down
+2022-08-20 17:48:54.612 CEST [10712] LOG:  starting PostgreSQL 12.9, compiled by Visual C++ build 1916, 64-bit
+2022-08-20 17:48:54.614 CEST [10712] LOG:  listening on IPv6 address "::1", port 5432
+2022-08-20 17:48:54.614 CEST [10712] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-08-20 17:48:54.645 CEST [6180] LOG:  database system was shut down at 2022-08-20 17:48:49 CEST
+2022-08-20 17:48:54.681 CEST [10712] LOG:  database system is ready to accept connections
+2022-08-20 17:52:59.264 CEST [4468] ERROR:  canceling statement due to user request
+2022-08-20 17:52:59.267 CEST [10712] LOG:  received fast shutdown request
+2022-08-20 17:52:59.269 CEST [15428] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-08-20 17:52:59.270 CEST [10712] LOG:  aborting any active transactions
+2022-08-20 17:52:59.313 CEST [10712] LOG:  background worker "logical replication launcher" (PID 4468) exited with exit code 1
+2022-08-20 17:52:59.346 CEST [18764] LOG:  shutting down
+2022-08-20 17:52:59.437 CEST [10712] LOG:  database system is shut down
+2022-08-20 17:53:15.023 CEST [16548] LOG:  starting PostgreSQL 12.9, compiled by Visual C++ build 1916, 64-bit
+2022-08-20 17:53:15.025 CEST [16548] LOG:  listening on IPv6 address "::1", port 5432
+2022-08-20 17:53:15.025 CEST [16548] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-08-20 17:53:15.058 CEST [17052] LOG:  database system was shut down at 2022-08-20 17:52:59 CEST
+2022-08-20 17:53:15.100 CEST [16548] LOG:  database system is ready to accept connections
+2022-08-20 17:54:53.744 CEST [8432] ERROR:  canceling statement due to user request
+2022-08-20 17:54:53.746 CEST [16548] LOG:  received fast shutdown request
+2022-08-20 17:54:53.749 CEST [16548] LOG:  aborting any active transactions
+2022-08-20 17:54:53.783 CEST [16548] LOG:  background worker "logical replication launcher" (PID 8432) exited with exit code 1
+2022-08-20 17:54:53.795 CEST [15012] LOG:  shutting down
+2022-08-20 17:54:53.890 CEST [16548] LOG:  database system is shut down
+2022-08-20 17:55:27.571 CEST [15196] LOG:  starting PostgreSQL 12.9, compiled by Visual C++ build 1916, 64-bit
+2022-08-20 17:55:27.574 CEST [15196] LOG:  listening on IPv6 address "::1", port 5432
+2022-08-20 17:55:27.574 CEST [15196] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-08-20 17:55:27.605 CEST [15852] LOG:  database system was shut down at 2022-08-20 17:54:53 CEST
+2022-08-20 17:55:27.639 CEST [15196] LOG:  database system is ready to accept connections
+2022-08-20 17:59:07.535 CEST [6808] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-08-20 17:59:11.751 CEST [4468] ERROR:  canceling statement due to user request
+2022-08-20 17:59:11.752 CEST [15196] LOG:  received fast shutdown request
+2022-08-20 17:59:11.756 CEST [15196] LOG:  aborting any active transactions
+2022-08-20 17:59:11.757 CEST [15196] LOG:  background worker "logical replication launcher" (PID 4468) exited with exit code 1
+2022-08-20 17:59:11.786 CEST [18680] LOG:  shutting down
+2022-08-20 17:59:11.837 CEST [15196] LOG:  database system is shut down
+2022-08-20 18:01:19.928 CEST [1544] LOG:  starting PostgreSQL 12.9, compiled by Visual C++ build 1916, 64-bit
+2022-08-20 18:01:19.935 CEST [1544] LOG:  listening on IPv6 address "::1", port 5432
+2022-08-20 18:01:19.935 CEST [1544] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-08-20 18:01:19.973 CEST [13460] LOG:  database system was shut down at 2022-08-20 17:59:11 CEST
+2022-08-20 18:01:20.023 CEST [1544] LOG:  database system is ready to accept connections
+2022-08-20 18:04:07.093 CEST [18964] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-08-20 18:05:51.552 CEST [19416] ERROR:  canceling statement due to user request
+2022-08-20 18:05:51.553 CEST [1544] LOG:  received fast shutdown request
+2022-08-20 18:05:51.556 CEST [1544] LOG:  aborting any active transactions
+2022-08-20 18:05:51.557 CEST [4400] FATAL:  terminating connection due to administrator command
+2022-08-20 18:05:51.576 CEST [1544] LOG:  background worker "logical replication launcher" (PID 19416) exited with exit code 1
+2022-08-20 18:05:51.605 CEST [19628] LOG:  shutting down
+2022-08-20 18:05:51.667 CEST [1544] LOG:  database system is shut down

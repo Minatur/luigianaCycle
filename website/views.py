@@ -3,7 +3,7 @@ from django.http import HttpResponse
 from django.views.generic import TemplateView, DetailView, ListView
 from django.template import loader
 
-from .models import ride
+from .models import activity
 
 
 
@@ -13,12 +13,12 @@ class BaseView(TemplateView):
 
 
 
-class RideItemView(DetailView):
-    model = ride
-    template_name = 'ride.html'
-    context_object_name = 'ride_item'
+class ActivityItemView(DetailView):
+    model = activity
+    template_name = 'activity.html'
+    context_object_name = 'activity_item'
 
-class RideListView(ListView):
-    model = ride
+class ActivityListView(ListView):
+    model = activity
     template_name = 'index.html'
-    context_object_name = 'ride_list'
+    context_object_name = 'activity_list'

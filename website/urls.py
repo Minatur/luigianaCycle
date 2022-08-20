@@ -1,11 +1,11 @@
 from django.urls import path, include
-from.views import BaseView, RideListView, RideItemView
+from.views import BaseView, ActivityListView, ActivityItemView
 
 from . import views
 
 urlpatterns = [
     path('', BaseView.as_view()),
-    path('index/', RideListView.as_view()),
-    path('index/rides/<int:pk>/', RideItemView.as_view(), name = 'ride_item')
+    path('index/', ActivityListView.as_view()),
+    path('index/activity/<int:pk>/', ActivityItemView.as_view(), name = 'activity_item')
 
 ]
