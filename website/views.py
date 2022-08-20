@@ -1,19 +1,9 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-from django.views.generic import TemplateView, DetailView
+from django.views.generic import TemplateView, DetailView, ListView
 from django.template import loader
 
 from .models import ride
-
-
-def index(request):
-    rides_list = ride.objects.all()
-    template = loader.get_template('index.html')
-    context = {
-        'rides_list': rides_list,
-    }
-    return HttpResponse(template.render(context, request))
-    #return HttpResponse("Hello world! You are at the website for Luigiana.")
 
 
 
@@ -27,3 +17,8 @@ class RideItemView(DetailView):
     model = ride
     template_name = 'ride.html'
     context_object_name = 'ride_item'
+
+class RideListView(ListView):
+    model = ride
+    template_name = 'index.html'
+    context_object_name = 'ride_list'

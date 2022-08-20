@@ -16,11 +16,9 @@ Including another URLconf
 
 from django.contrib import admin
 from django.urls import include, path
-from website.views import BaseView, RideItemView
+from website.views import BaseView, RideItemView, RideListView
 
 urlpatterns = [
-    path('', BaseView.as_view()),
-    path('index/', include('website.urls')),
+    path('', include('website.urls')),
     path('admin/', admin.site.urls),
-    path('index/<int:pk>/', RideItemView.as_view(), name='rideitem')
 ]

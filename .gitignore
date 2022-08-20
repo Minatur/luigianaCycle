@@ -6,7 +6,7 @@ local.py
 *~
 *.bat
 *.init
-__pycache__
-mylocal_db
+__pycache__/
+mylocal_db/
 *.sqlite3
 dj/

@@ -1,12 +1,14 @@
 {% extends "./website_base.html" %}
 
-{% block rideIndex %}
+{% block rideList %}
+
+<p>The rideindex has loaded</p>
 
 {% if rides_list %}
     <ul>
     {% for ride in rides_list %}
         <li>
-          <a href="/index/{{ride.id}}/">
+          <a href="/index/rides/{{ride.id}}/">
             <div class="container">
               <div class="row">
                 <div class="col">
